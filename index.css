@@ -1,0 +1,62 @@
+.container{
+    background-color: rgb(250, 245, 245);
+    margin: 0 32%  ;
+    display: flex;
+    width: 600px;
+    flex-direction: column;
+    border-radius: 20px;
+    /* padding: 20px; */
+}
+
+.box{
+    display: flex;
+    width: 600px;
+    /* border: 2px solid blue */
+    padding: 20px;
+}
+
+.button1{
+    display: flex;
+    border: 1px solid rgb(0, 0, 0);
+    justify-content: space-around;
+    border-radius: 7px;
+}
+
+.removebtn{
+    margin-top: 7px;
+    margin-left: 5px;
+    background-color:rgb(180, 68, 68);
+    color: white;
+    border: none;
+    border-radius: 7px;
+    padding: 7px;
+}
+
+.text{
+    margin-left: 70px;
+}
+
+img{
+    width: 30%;
+    /* height: ; */
+    border-radius: 15px;
+}
+
+.orange{
+    color: rgb(255, 99, 9);
+    font-size: 1.5rem;
+}
+
+h1{
+    text-align: center;
+}
+
+.subtotal{
+    flex-direction: column
+}
+
+.subtotal-hr{
+    display: flex;
+    justify-content: space-between;
+    border-top: 2PX solid rgb(0, 0, 0);
+}
